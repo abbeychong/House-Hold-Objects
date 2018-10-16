@@ -1,0 +1,194 @@
+html, body {
+  min-height:100vh;
+}
+
+body {
+  background-color: #FCF4D2;
+  transition:background-color 2s ease;
+}
+
+.clicked {
+  background:#F9D7DE;
+}
+
+.organization-title {
+  font-family: "Archivo Black";
+	font-size: 12em;
+	line-height: 150px;
+	color: Yellow;
+	position: fixed;
+        top:30px;
+				left:95px;
+	z-index: -1;
+  opacity: 0.8;
+/* 	background: rgba(.9); */
+  text-align: left;
+  
+}
+
+.series-title {
+  font-family: arial;
+  font-size: 20px
+  
+}
+
+.event1 {
+  display: flex; 
+  border: solid 2px black;
+  flex-direction: column; 
+  margin-right: 700px; 
+  margin-left: 100px;
+  padding: 50px 
+  
+}
+
+.event2 {
+  display: flex; 
+  border: solid 2px black;
+  flex-direction: column; 
+  margin-right: 100px; 
+  margin-left: 700px;
+  padding: 50px 
+    
+} 
+
+button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Roboto Mono";
+}
+
+button:hover{
+  background-color: magenta;
+  font-size: 14px;
+  text-decoration: line-through;
+  font-family: "Roboto Mono"
+
+}
+
+.event-title {
+  font-family: "Forum";
+	font-size: 40px;
+	line-height: 40px;
+  letter-spacing: 1px;
+}
+
+.event-date {
+  font-family: "Forum";
+  font-size: 25px;
+  line-height: 40px;
+   text-transform: uppercase;
+}
+
+p {
+  font-family: "Roboto Mono";
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.series-title {
+  font-size:8em;
+  line-height: 85px;
+	text-align:left;
+	font-family: "Forum";
+  position: absolute;
+        top:90px;
+				left:650px;
+	color: black; 
+}
+
+.event1:hover{
+  color: magenta;
+  border: solid 2px magenta;
+}
+
+.event2:hover{
+  color: magenta;
+  border: solid 2px magenta;
+}
+
+.series-title:hover{
+color: magenta;
+
+}
+
+.number1 {
+  font-size:4em;
+  font-family: "Forum";
+  position: absolute;
+        top:30px;
+        left:40px;
+
+}
+
+.number1:hover{
+  color:magenta;
+  text-decoration: overline;
+}
+.number2 {
+  font-size:4em;
+   font-family: "Forum";
+  position: absolute;
+        top:940px;
+        left:630px;
+      }
+
+.number2:hover{
+   color:magenta;
+  text-decoration: overline;
+}
+
+
+
+.number3{
+  font-size:4em;
+   font-family: "Forum";
+  position: absolute;
+        top:1740px;
+        left:40px;
+
+}
+
+.number3:hover{
+   color:magenta;
+  text-decoration: overline;
+}
+
+.number4{
+  font-size:4em;
+   font-family: "Forum";
+  position: absolute;
+        top:2360px;
+        left:630px;
+
+}
+
+.number4:hover{
+   color:magenta;
+  text-decoration: overline;
+}
+
+/*.Link{
+  font-size:8em;
+  line-height: 85px;
+  text-align:left;
+  font-family: "Forum";
+  position: absolute;
+        top:345px;
+        left:920px;
+  color: magenta; 
+  text-decoration: none;
+
+}
+
+.Link:hover{
+  color: magenta
+  font-size: 10em;
+}
+*/
