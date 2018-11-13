@@ -1,0 +1,332 @@
+.radial-gradient {
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  background: #1E00E7;
+  background: 
+    radial-gradient(
+     at center, #FF1BE6, #1E00E7
+    );
+}
+
+.sphere {
+     width: 20em;
+    height: 20em;
+    background: linear-gradient(120deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 50%;
+    left: 50%;
+   
+}
+
+.sphere h1 {
+margin: 0;
+padding: 0;
+font-family: 'Quicksand'; 
+opacity: 0.7;
+font-size: 1em;
+text-align: center;
+vertical-align: middle;
+line-height: 275px; 
+color: white;
+letter-spacing: 2px;
+}
+
+
+.sphere:hover{
+  transform: scale(1.4);
+  background: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  transition: all 2s ease-in-out;
+}
+
+.sphere2 {
+    width: 20em;
+    height: 20em;
+    background: linear-gradient(120deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 20%;
+    left: 67%;
+}
+
+.sphere2:hover{
+    transform: scale(1.4);
+  background: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+ mix-blend-mode: multiply;
+ cursor: pointer;
+}
+
+.sphere3 {
+  width: 10em;
+    height: 10em;
+    background: linear-gradient(80deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 50%;
+    left: 35%;
+}
+
+.sphere3:hover{
+  transform: scale(1.4);
+  background: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  mix-blend-mode: hard-light;
+  cursor: pointer;
+}
+
+.sphere4 {
+   width: 32em;
+    height: 32em;
+    background: linear-gradient(80deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 60%;
+    left: 7%;
+}
+
+.sphere4:hover {
+   transform: scale(1.4);
+  background: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  mix-blend-mode: hard-light;
+  cursor: pointer;
+}
+
+.sphere5 {
+   width: 8em;
+    height: 8em;
+    background: linear-gradient(40deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 70%;
+    left: 75%
+}
+
+.sphere5:hover{
+ transform: scale(1.4);
+  background: linear-gradient(-20deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+}
+
+.sphere6 {
+   width: 23em;
+    height: 23em;
+    background: linear-gradient(40deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 7%;
+    left: 10%
+}
+
+.sphere6:hover{
+  transform: scale(1.4);
+  background: linear-gradient(-20deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+}
+
+.sphere7 {
+     width: 25em;
+    height: 25em;
+    background: linear-gradient(32deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 1%;
+    left: 38%
+
+}
+
+.sphere7:hover{
+   transform: scale(1.4);
+  background: linear-gradient(-20deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+
+}
+
+.sphere8 {
+    width: 30em;
+    height: 30em;
+    background: linear-gradient(32deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 80%;
+    left: 80%;
+}
+
+.sphere8:hover{
+   transform: scale(1.4);
+  background: linear-gradient(-20deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+    mix-blend-mode: hard-light;
+}
+
+.sphere9 {
+  width: 15em;
+    height: 15em;
+    background: linear-gradient(32deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 45%;
+    left: 88%
+
+}
+
+.sphere9:hover {
+ transform: scale(1.4);
+  background: linear-gradient(-20deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+}
+
+.sphere10 {
+  width: 6em;
+    height: 6em;
+    background: linear-gradient(32deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 70%;
+    left: 105%
+
+}
+
+.sphere10:hover {
+   transform: scale(1.4);
+  background: linear-gradient(-20deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+}
+
+.sphere11 {
+    width: 22em;
+    height: 22em;
+    background: linear-gradient(90deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 1%;
+    left: 90%
+}
+
+.sphere11:hover {
+  transform: scale(1.4);
+  background: linear-gradient(-120deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+  mix-blend-mode: hard-light;
+}
+
+.sphere12 {
+     width: 15em;
+    height: 15em;
+    background: linear-gradient(22deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 100%;
+    left: 43%
+}
+
+.sphere12:hover {
+  transform: scale(1.4);
+  background: linear-gradient(-40deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+}
+
+.sphere13 {
+   width: 7em;
+    height: 7em;
+    background: linear-gradient(22deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 80%;
+    left: 43.5%
+
+}
+
+.sphere13:hover{
+   transform: scale(1.4);
+  background: linear-gradient(-180deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+  mix-blend-mode: hard-light;
+
+}
+
+.sphere14 {
+   width: 18em;
+    height:18em;
+    background: linear-gradient(122deg, #FF7FE6, #1E00E7, #D600FB);
+    border-radius: 100%;
+    transform: scale(0.9); /* 1/10 of the original size */
+    transition: all 2s ease-in-out;
+    filter: blur(1px);
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    top: 93%;
+    left: 60%
+}
+
+.sphere14:hover {
+    transform: scale(1.4);
+  background: linear-gradient(-280deg, #FF1BE6 0%, #21d4fd 100%);
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+
+}
