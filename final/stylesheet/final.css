@@ -1,0 +1,269 @@
+.Title {
+  height:40%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  font-family:'Lora';
+  font-size:6em;
+  color: #F44336;
+}
+
+.Text {
+  display: flex;
+  font-family: 'Lora';
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height:70%;
+  width: 100%;
+  font-size: 2em;
+  color: #F44336;
+}
+
+.KedahMap {
+  display: flex;
+  position:absolute;
+  top:60%;
+
+}
+
+.Text1 {
+  font-family: 'Permanent Marker';
+  font-size: 3em;
+  color: #F44336;
+  position:absolute;
+  top:80%;
+  left:50%;
+}
+
+
+.PerakMap {
+  display: flex;
+  position:absolute;
+  top:120%;
+  left:50%;
+ }
+
+.Text2{
+ font-family: 'Permanent Marker';
+  font-size: 3em;
+  color: #F44336;
+  position:absolute;
+  top:150%;
+  left:10%;
+}
+
+.Text3{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;
+  height:400%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.SMap {
+  height:500%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Quote1 {
+ font-family: 'Lora';
+  font-size: 1.5em;
+  color: #F44336;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height:575%;
+  width: 100%;
+}
+
+.StoC {
+  height:650%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.Text4{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height:750%;
+  width: 100%;
+}
+
+.Image1 {
+   display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height:875%;
+  width: 100%;
+}
+.Text5{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336; 
+}
+
+.Text6{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;
+  
+}
+
+.Text7 {
+ font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:1000%;
+  width: 100%;
+}
+
+.NGMap {
+  height:650%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.Quote2 {
+  font-family: 'Lora';
+  font-size: 3em;
+  color: #F44336;
+
+}
+
+.Text8{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;
+}
+
+.Text9{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;
+}
+
+.Text10{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text11{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text12{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text13{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text14{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336; 
+}
+
+.Text15{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text16{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text17{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text18{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text19{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text20{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+.Text21{
+   font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336; 
+}
+
+.Text22{
+   font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336; 
+}
+
+.Quote3{
+  font-family: 'Lora';
+  font-size: 3em;
+  color: #F44336; 
+}
+
+.Text24{
+  font-family: 'Lora';
+  font-size: 3em;
+  color: #F44336;  
+}
+
+.Text25{
+  font-family: 'Lora';
+  font-size: 1em;
+  color: #F44336;  
+}
+
+
