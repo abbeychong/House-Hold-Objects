@@ -1,0 +1,222 @@
+.Title {
+	font-family: 'Noto Serif SC';
+	position: absolute;
+	top: 60%;
+	left: 10.5%;
+}
+
+
+html, body {
+  	color: #F44336;
+	min-width: 200px;
+	background: #FCE0E0;
+
+}
+
+
+ol {
+	position: relative;
+	top: 0px;
+  	display; block;
+	margin: 50px;
+	height: 1px;
+	background: #F44336;
+}
+
+ol::before,
+ol::after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	display: block;
+	width: 4;
+	height: 4;
+  border-radius: 0px;
+}
+ol::before {
+	left: -5px;
+}
+ol::after {
+	right: -10px;
+	border: 10px solid transparent;
+	border-right: 0;
+  border-radius: px;
+}
+
+/* Timeline elements  */
+
+li {
+	position: relative;
+	top: -10px;
+	display: inline-block;
+	float: left;
+	width: 90px;
+	font: bold 11px 'Roboto Mono';
+  padding-top: 25px;
+}
+
+li::after {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 6px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #F44336;
+	border-radius: 10px;
+	background: white;
+}
+
+/* Details */
+
+.details {
+	display: none;
+	position: absolute;
+	left: -100px;
+	top: 85px;
+	padding: 10px;
+	border-radius: 3px;
+	border-right: 2px solid rgba(0,0,0,.1);
+	border-bottom: 2px solid rgba(0,0,0,.1);
+	transform: rotate(45deg);
+	font: 12px arial;
+	background: #fff;
+}
+.details::before {
+	content: "";
+	position: absolute;
+	left: 10px;
+	top: -9px;
+	display: block;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-bottom-color: #fff;
+	border-top: 0;
+}
+
+/* Hover effects */
+
+li:hover {
+	cursor: pointer;
+  color: #f9a5a9;
+}
+li:hover::before {
+	top: 1px;
+	left: -31px;
+	width: 8px;
+	height: 8px;
+	border-width: 4px;
+	border-color: #f9a5a9;
+}
+li:hover .details {
+	display: block;
+  color: #F44336;
+}
+
+
+
+#map {
+	width:100%;
+	height:400px;
+}
+
+#Mom{
+	left: -1%;
+}
+
+#Dad{
+  left:-5.7%;
+}
+
+#Selangor{
+  left: 0%;
+}
+#Meeting {
+	left: -2.0%;
+}
+
+#Marriage{
+	left: -4%;
+}
+
+#Canada {
+	left: -3%;
+}
+
+#Jasmine {
+	left: -7%;
+}
+
+#Abbey {
+	left: -4%;
+}
+
+#Restaurant {
+	left: -5%;
+}
+
+#Lydia {
+left: -6%
+}
+
+#Present{
+  left: 99%;
+  position: absolute;
+}
+
+#Start::after{
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+}
+
+#Start{
+  left: -15px;
+  top: -17px;
+  position: absolute;
+}
+
+h2{
+	margin-bottom: 0px;
+}
+
+.pop{
+	font-family: 'Abel';
+	font-size:4em;
+    margin: 50px;
+    margin-top: 90px;
+    margin-left: 275px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.pop:hover {
+	color: #F44336;
+}
+
+.popText{
+	font-family:'Lora';
+	font-size: 16px;
+	margin: 10px 0px ;
+	text-decoration: none;
+}
+
+
+.pop img{
+	width: 60%;
+}
+
+.pop img {
+	-webkit-transform: scale(.8);
+	transform: scale(.8);
+	-webkit-transition: .8s ease-in-out;
+	transition: .8s ease-in-out;
+}
+.pop:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
